@@ -1,0 +1,23 @@
+{
+  "name": "tarkeswor-dentist",
+  "version": "1.0.0",
+  "description": "Tarkeswor Dentist Pvt. Ltd. - Full Stack Website",
+  "main": "dist/index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.mjs",
+    "dev": "node dist/index.mjs",
+    "vercel-build": "echo 'Build complete - using pre-compiled dist/index.mjs'"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^5.0.1",
+    "drizzle-orm": "^0.43.1",
+    "pg": "^8.13.3",
+    "cors": "^2.8.5",
+    "pino": "^9.6.0",
+    "pino-http": "^10.4.0"
+  }
+}
